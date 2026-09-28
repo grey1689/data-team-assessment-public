@@ -1,4 +1,4 @@
-player_id,signup_date,country,primary_game_id,status,updated_at
+player_id,signup_date,region,primary_game_id,status,updated_at
 P100001,2022-07-17,BR,G003,active,2023-05-09 00:00:00
 P100002,2023-06-25,US,G004,active,2024-05-15 00:00:00
 P100003,2023-01-01,BR,G012,active,2023-03-15 00:00:00
