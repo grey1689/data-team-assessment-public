@@ -22,12 +22,14 @@ Product wants a monthly view of earned value, redeemed value, and outstanding fl
 
 ### Deliverables
 
-You should submit:
+Your deliverables are:
 
 1. A schema/ERD sketch of the model you built
 2. Working SQL models (dbt or otherwise) of any intermediate or final data models, along with any tests you created
 3. The monthly breakdown itself, in a form ready to discuss with a stakeholder (e.g. chart, table, etc.)
 4. A short written brief covering any assumptions you made along the way, any data quality issues you ran into and how you handled them, what you'd want to confirm with stakeholders if you could ask, how you used AI tools during this exercise, and what you'd do differently with more time.
+
+To submit the exercise, please create a repository (Github or otherwise) with your work and notify us via candidate email. If you have questions or issues with the submission mechanism, please also let us know and we can find alternatives if necessary.
 
 ### Guidance
 
