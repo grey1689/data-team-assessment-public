@@ -1,0 +1,20 @@
+# dbt connection profile for local Postgres.
+# This file is safe to commit: secrets are injected via env_var from `.env`.
+# DBT_PROFILES_DIR should point at the repo root (set by dbt_macro_runner.py).
+
+zbd:
+  # Default target used by `dbt run-operation` / `dbt run` unless --target is passed.
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      # Connection settings mirror POSTGRES_* keys in `.env`.
+      host: "{{ env_var('POSTGRES_HOST') }}"
+      user: "{{ env_var('POSTGRES_USER') }}"
+      password: "{{ env_var('POSTGRES_PASSWORD') }}"
+      # env_var returns a string; Postgres adapter requires an integer port.
+      port: "{{ env_var('POSTGRES_PORT') | int }}"
+      dbname: "{{ env_var('POSTGRES_DB') }}"
+      # Landing-zone schema for `*_proxy` source tables. Defaults to `proxy`.
+      schema: "{{ env_var('POSTGRES_SCHEMA', 'proxy') }}"
+      threads: 4

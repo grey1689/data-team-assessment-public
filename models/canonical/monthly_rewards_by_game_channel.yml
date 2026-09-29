@@ -1,0 +1,66 @@
+# Field-level tests for canonical.monthly_rewards_by_game_channel.
+#
+# This is the Product-facing monthly breakdown required by the README:
+# earned, redeemed, and outstanding float by game and redemption channel.
+# The other canonical models are optional intermediates that feed this grain.
+
+version: 2
+
+models:
+  - name: monthly_rewards_by_game_channel
+    description: >
+      Monthly earned value, net redeemed value, and outstanding float in USD,
+      broken out by game and redemption channel.
+    tests:
+      - unique_combination:
+          arguments:
+            combination_of_columns:
+              - report_month
+              - game_id
+              - channel
+    columns:
+      - name: report_month
+        description: Month start date for the report row.
+        tests:
+          - not_null
+      - name: game_id
+        description: Game key.
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref("games_clean")
+                field: game_id
+      - name: game_name
+        description: Game display name for stakeholders.
+        tests:
+          - not_null
+      - name: channel
+        description: >
+          Redemption channel, or unallocated for earn value with no settled
+          channel.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - bank_payout
+                  - gift_card
+                  - instant_debit_payout
+                  - wallet_transfer
+                  - unallocated
+      - name: earned_value_usd
+        description: USD earned in the month for this game and channel.
+        tests:
+          - not_null
+      - name: redeemed_value_usd
+        description: >
+          USD net redeemed in the month (settled minus reversed) for this
+          game and channel.
+        tests:
+          - not_null
+      - name: outstanding_float_usd
+        description: >
+          Cumulative earned minus cumulative net redeemed through month end.
+        tests:
+          - not_null

@@ -1,0 +1,60 @@
+# Field-level tests for clean.redeem_events_clean.
+
+version: 2
+
+models:
+  - name: redeem_events_clean
+    description: >
+      Typed, trimmed copy of proxy.redeem_events_proxy. One row per log_id.
+    columns:
+      - name: log_id
+        description: Identifier for this redemption status-log entry.
+        tests:
+          - unique
+          - not_null
+      - name: redemption_id
+        description: Identifier for the redemption request.
+        tests:
+          - not_null
+      - name: player_id
+        description: Player the redemption belongs to.
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref("players_clean")
+                field: player_id
+      - name: channel
+        description: Redemption channel.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - bank_payout
+                  - gift_card
+                  - instant_debit_payout
+                  - wallet_transfer
+      - name: status
+        description: Status of the redemption at this log timestamp.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["failed", "requested", "reversed", "settled"]
+      - name: amount
+        description: Redemption value in `currency` units (not USD-normalized).
+        tests:
+          - not_null
+          - positive_numeric
+      - name: currency
+        description: ISO-like currency code of the redemption amount.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["BRL", "EUR", "GBP", "USD"]
+      - name: status_changed_at
+        description: Timestamp of this status change.
+        tests:
+          - not_null

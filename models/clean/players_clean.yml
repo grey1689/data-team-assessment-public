@@ -1,0 +1,44 @@
+# Field-level tests for clean.players_clean.
+
+version: 2
+
+models:
+  - name: players_clean
+    description: >
+      Typed, trimmed copy of proxy.players_proxy. One row per player_id.
+    columns:
+      - name: player_id
+        description: Natural key for a player account.
+        tests:
+          - unique
+          - not_null
+      - name: signup_date
+        description: Date the player signed up.
+        tests:
+          - not_null
+      - name: region
+        description: Geography the player registered from.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["BR", "EU", "UK", "US"]
+      - name: primary_game_id
+        description: Main game the player plays, based on event signals.
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref("games_clean")
+                field: game_id
+      - name: status
+        description: Player account status.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["active", "inactive"]
+      - name: updated_at
+        description: Timestamp this player record was last written.
+        tests:
+          - not_null

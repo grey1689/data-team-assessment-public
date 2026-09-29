@@ -1,0 +1,31 @@
+# Field-level tests for clean.fx_rates_clean.
+
+version: 2
+
+models:
+  - name: fx_rates_clean
+    description: >
+      Typed, trimmed copy of proxy.fx_rates_proxy. One row per currency and rate_date.
+    tests:
+      - unique_combination:
+          arguments:
+            combination_of_columns:
+              - currency
+              - rate_date
+    columns:
+      - name: currency
+        description: Currency code for the FX snapshot.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["BRL", "EUR", "GBP", "USD"]
+      - name: rate_date
+        description: Date the rate snapshot was captured.
+        tests:
+          - not_null
+      - name: rate_to_usd
+        description: Conversion rate from `currency` to USD on rate_date.
+        tests:
+          - not_null
+          - positive_numeric

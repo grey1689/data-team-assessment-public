@@ -1,0 +1,9 @@
+# Local Python + dbt dependencies for table DDL and CSV loads.
+# Install into `.venv`: python -m pip install -r requirements.txt
+
+# dbt adapter for Postgres; pulls a compatible dbt-core.
+dbt-postgres>=1.8,<1.10
+# Load `.env` into process env for scripts and dbt env_var() values.
+python-dotenv
+# Postgres driver used by load_source_data.py (COPY).
+psycopg2-binary

@@ -1,0 +1,15 @@
+# Secrets — never commit local credentials
+.env
+
+# Local Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# dbt compile/run artifacts and installed packages
+target/
+dbt_packages/
+
+# dbt and application log files
+logs/
+*.log

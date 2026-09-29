@@ -1,0 +1,55 @@
+# Field-level tests for clean.earn_events_clean.
+
+version: 2
+
+models:
+  - name: earn_events_clean
+    description: >
+      Typed, trimmed copy of proxy.earn_events_proxy. One row per event_id.
+      player_id is not relationship-tested; the extract contains earn events
+      for players missing from players_proxy.
+    columns:
+      - name: event_id
+        description: Pipeline-assigned identifier for the earn record.
+        tests:
+          - unique
+          - not_null
+      - name: earn_id
+        description: Source rewards-system identifier for the earn action.
+        tests:
+          - not_null
+      - name: player_id
+        description: Player who earned the reward.
+        tests:
+          - not_null
+      - name: game_id
+        description: Game the reward was earned on.
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref("games_clean")
+                field: game_id
+      - name: earned_at
+        description: Timestamp the reward was earned.
+        tests:
+          - not_null
+      - name: amount
+        description: Reward value in `currency` units (not USD-normalized).
+        tests:
+          - not_null
+          - positive_numeric
+      - name: currency
+        description: ISO-like currency code of the reward amount.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["BRL", "EUR", "GBP", "USD"]
+      - name: earn_type
+        description: Category of the earn action.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["bonus", "gameplay", "tournament"]

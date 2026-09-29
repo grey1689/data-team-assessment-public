@@ -1,0 +1,39 @@
+# dbt project config for the ZBD rewards take-home.
+# Profile name `zbd` must match the top-level key in profiles.yml.
+
+name: zbd
+version: "1.0.0"
+config-version: 2
+profile: zbd
+
+# Standard dbt path layout. Source YAML lives under models/; DDL macros under macros/.
+model-paths: ["models"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+analysis-paths: ["analyses"]
+snapshot-paths: ["snapshots"]
+
+# `dbt clean` removes compile artifacts and package installs, not source data.
+clean-targets:
+  - target
+  - dbt_packages
+  - logs
+
+flags:
+  # Disable telemetry for a local take-home project.
+  send_anonymous_usage_stats: false
+
+# Layered schemas: proxy (*_proxy) -> clean (*_clean) -> canonical (report models).
+models:
+  zbd:
+    clean:
+      +schema: clean
+      +materialized: table
+    canonical:
+      +schema: canonical
+      +materialized: table
+      # Supporting models (player_redemption_channel, earn_value_usd,
+      # redeem_value_usd) can use materialized: ephemeral so they are
+      # inlined and do not create tables in schema canonical. Keep
+      # monthly_rewards_by_game_channel as a table (the Product output).

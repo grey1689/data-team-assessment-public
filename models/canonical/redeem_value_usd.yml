@@ -1,0 +1,82 @@
+# Field-level tests for canonical.redeem_value_usd.
+#
+# Intermediate signed USD redeem movements (settled / reversed only).
+# Not the Product output. Tests lock grain (log_id) and the game/channel
+# keys used in the monthly view.
+
+version: 2
+
+models:
+  - name: redeem_value_usd
+    description: >
+      Settled and reversed redemption logs converted to USD. Settled is
+      positive; reversed is negative. Requested and failed logs are omitted.
+    columns:
+      - name: log_id
+        description: Redemption status-log key.
+        tests:
+          - unique
+          - not_null
+      - name: redemption_id
+        description: Redemption request key.
+        tests:
+          - not_null
+      - name: player_id
+        description: Player who redeemed.
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref("players_clean")
+                field: player_id
+      - name: game_id
+        description: Player primary_game_id used as the redeem game.
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref("games_clean")
+                field: game_id
+      - name: channel
+        description: Redemption channel on the log.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - bank_payout
+                  - gift_card
+                  - instant_debit_payout
+                  - wallet_transfer
+      - name: report_month
+        description: First day of the status-change month.
+        tests:
+          - not_null
+      - name: status_changed_at
+        description: Status-change timestamp.
+        tests:
+          - not_null
+      - name: status
+        description: settled or reversed.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["settled", "reversed"]
+      - name: signed_amount
+        description: Source-currency amount; reversed is negative.
+        tests:
+          - not_null
+      - name: currency
+        description: Source currency code.
+        tests:
+          - not_null
+      - name: rate_to_usd
+        description: FX rate applied for the status-change month.
+        tests:
+          - not_null
+          - positive_numeric
+      - name: signed_amount_usd
+        description: signed_amount * rate_to_usd.
+        tests:
+          - not_null

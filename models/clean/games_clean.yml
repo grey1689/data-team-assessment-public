@@ -1,0 +1,36 @@
+# Field-level tests for clean.games_clean.
+
+version: 2
+
+models:
+  - name: games_clean
+    description: >
+      Typed, trimmed copy of proxy.games_proxy. One row per game_id.
+    columns:
+      - name: game_id
+        description: Natural key for a published game.
+        tests:
+          - unique
+          - not_null
+      - name: game_name
+        description: Display name of the game.
+        tests:
+          - not_null
+      - name: platform
+        description: Platform the game is published on.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["Console", "Mobile", "PC"]
+      - name: primary_region
+        description: Main geography the game operates in.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["BR", "EU", "UK", "US"]
+      - name: launch_date
+        description: Date the game went live.
+        tests:
+          - not_null

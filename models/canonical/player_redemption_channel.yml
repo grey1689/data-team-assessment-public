@@ -1,0 +1,34 @@
+# Field-level tests for canonical.player_redemption_channel.
+#
+# Intermediate lookup, not the Product output. Exists so the earn-channel
+# attribution rule is tested independently of the monthly rollup.
+# Grain: player_id (players with at least one settled redemption).
+
+version: 2
+
+models:
+  - name: player_redemption_channel
+    description: >
+      One row per player who has at least one settled redemption. Channel is
+      the player's most frequent settled payout path (ties broken by name).
+    columns:
+      - name: player_id
+        description: Player account key.
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              arguments:
+                to: ref("players_clean")
+                field: player_id
+      - name: primary_redemption_channel
+        description: Modal settled redemption channel for the player.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - bank_payout
+                  - gift_card
+                  - instant_debit_payout
+                  - wallet_transfer

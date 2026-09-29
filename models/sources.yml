@@ -1,0 +1,89 @@
+# Source declarations for CSV-backed landing tables in schema `proxy`.
+# Tables are named `*_proxy`. Macros create them; Python loaders fill them.
+# Clean models read these via {{ source('proxy', 'games_proxy') }} etc.
+#
+# Load tests require at least one row plus natural-key uniqueness/not-null.
+# Exact row counts are not asserted so later loads can add rows.
+
+version: 2
+
+sources:
+  - name: proxy
+    description: >
+      Imperfect production-style extracts for the player rewards program.
+      Grain and types follow DATA_DICTIONARY.md. No foreign keys are enforced
+      at load time because source data can contain unmatched identifiers.
+    schema: proxy
+    tables:
+      - name: games_proxy
+        description: >
+          One row per game. game_id is the natural key. Includes platform,
+          primary operating region, and launch date.
+        tests:
+          - expect_at_least_one_row
+        columns:
+          - name: game_id
+            description: Natural key for a published game.
+            tests:
+              - unique
+              - not_null
+      - name: players_proxy
+        description: >
+          One row per player account. primary_game_id is the player's main
+          game from event signals; status and updated_at reflect the latest
+          account snapshot in the extract.
+        tests:
+          - expect_at_least_one_row
+        columns:
+          - name: player_id
+            description: Natural key for a player account.
+            tests:
+              - unique
+              - not_null
+      - name: earn_events_proxy
+        description: >
+          Event-pipeline records of value earned. event_id is the pipeline
+          key; earn_id is the source rewards-system key. Amounts are in the
+          listed currency and are not USD-normalized in this table.
+        tests:
+          - expect_at_least_one_row
+        columns:
+          - name: event_id
+            description: Pipeline-assigned identifier for the earn record.
+            tests:
+              - unique
+              - not_null
+      - name: redeem_events_proxy
+        description: >
+          Status-log entries for redemption requests, not necessarily one row
+          per redemption. log_id is the log-entry key; redemption_id groups
+          statuses for the same request. channel is the Product breakout
+          dimension for redemptions.
+        tests:
+          - expect_at_least_one_row
+        columns:
+          - name: log_id
+            description: Identifier for this redemption status-log entry.
+            tests:
+              - unique
+              - not_null
+      - name: fx_rates_proxy
+        description: >
+          Point-in-time FX snapshots (currency, rate_date) with rate_to_usd.
+          Used to convert earn and redeem amounts onto a common USD basis.
+        tests:
+          - expect_at_least_one_row
+          - unique_combination:
+              arguments:
+                combination_of_columns:
+                  - currency
+                  - rate_date
+        columns:
+          - name: currency
+            description: Currency code for the FX snapshot.
+            tests:
+              - not_null
+          - name: rate_date
+            description: Date the rate snapshot was captured.
+            tests:
+              - not_null

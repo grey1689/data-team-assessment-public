@@ -1,0 +1,79 @@
+# Field-level tests for canonical.earn_value_usd.
+#
+# Intermediate USD earn facts. Product consumes the monthly rollup, not
+# this table. Tests lock grain (event_id), FX conversion, and the
+# unallocated channel convention.
+
+version: 2
+
+models:
+  - name: earn_value_usd
+    description: >
+      Earn events converted to USD and tagged with a redemption channel for
+      the Product game-by-channel grain.
+    columns:
+      - name: event_id
+        description: Pipeline earn-event key.
+        tests:
+          - unique
+          - not_null
+      - name: earn_id
+        description: Source rewards-system earn key.
+        tests:
+          - not_null
+      - name: player_id
+        description: Player who earned. May not exist in players_clean.
+        tests:
+          - not_null
+      - name: game_id
+        description: Game the reward was earned on.
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref("games_clean")
+                field: game_id
+      - name: channel
+        description: >
+          Player primary settled channel, or unallocated when none exists.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - bank_payout
+                  - gift_card
+                  - instant_debit_payout
+                  - wallet_transfer
+                  - unallocated
+      - name: report_month
+        description: First day of the earn month.
+        tests:
+          - not_null
+      - name: earned_at
+        description: Earn timestamp.
+        tests:
+          - not_null
+      - name: amount
+        description: Amount in source currency.
+        tests:
+          - not_null
+          - positive_numeric
+      - name: currency
+        description: Source currency code.
+        tests:
+          - not_null
+      - name: rate_to_usd
+        description: FX rate applied for the earn month.
+        tests:
+          - not_null
+          - positive_numeric
+      - name: amount_usd
+        description: amount * rate_to_usd.
+        tests:
+          - not_null
+          - positive_numeric
+      - name: earn_type
+        description: Earn category.
+        tests:
+          - not_null

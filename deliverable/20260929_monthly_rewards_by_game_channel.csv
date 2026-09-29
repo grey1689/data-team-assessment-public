@@ -1,0 +1,511 @@
+report_month,game_id,game_name,channel,earned_value_usd,redeemed_value_usd,outstanding_float_usd
+2024-01-01,G011,Arcadia Nights,bank_payout,211.61,0.0,211.61
+2024-01-01,G011,Arcadia Nights,gift_card,865.61,61.62,803.99
+2024-01-01,G011,Arcadia Nights,instant_debit_payout,0.0,0.0,0.0
+2024-01-01,G011,Arcadia Nights,unallocated,706.76,0.0,706.76
+2024-01-01,G011,Arcadia Nights,wallet_transfer,0.0,0.0,0.0
+2024-01-01,G014,Circuit Breakers,bank_payout,1335.11,529.09,806.02
+2024-01-01,G014,Circuit Breakers,gift_card,1191.3,340.33,850.96
+2024-01-01,G014,Circuit Breakers,instant_debit_payout,390.91,0.0,390.91
+2024-01-01,G014,Circuit Breakers,unallocated,339.63,0.0,339.63
+2024-01-01,G014,Circuit Breakers,wallet_transfer,902.06,34.42,867.64
+2024-01-01,G012,Dustbowl Derby,bank_payout,350.75,0.0,350.75
+2024-01-01,G012,Dustbowl Derby,gift_card,312.69,154.13,158.56
+2024-01-01,G012,Dustbowl Derby,instant_debit_payout,808.85,0.0,808.85
+2024-01-01,G012,Dustbowl Derby,unallocated,8.76,0.0,8.76
+2024-01-01,G012,Dustbowl Derby,wallet_transfer,406.99,295.54,111.45
+2024-01-01,G013,Emberfall,bank_payout,1677.4,69.73,1607.67
+2024-01-01,G013,Emberfall,gift_card,265.96,216.83,49.13
+2024-01-01,G013,Emberfall,instant_debit_payout,96.23,0.0,96.23
+2024-01-01,G013,Emberfall,unallocated,161.02,0.0,161.02
+2024-01-01,G013,Emberfall,wallet_transfer,438.45,155.35,283.1
+2024-01-01,G004,Fable Forge,bank_payout,89.92,0.0,89.92
+2024-01-01,G004,Fable Forge,gift_card,1613.79,114.68,1499.11
+2024-01-01,G004,Fable Forge,instant_debit_payout,1387.34,0.0,1387.34
+2024-01-01,G004,Fable Forge,unallocated,9.17,0.0,9.17
+2024-01-01,G004,Fable Forge,wallet_transfer,204.02,86.97,117.05
+2024-01-01,G017,Glasswing,bank_payout,787.46,69.0,718.46
+2024-01-01,G017,Glasswing,gift_card,395.38,0.0,395.38
+2024-01-01,G017,Glasswing,instant_debit_payout,198.49,0.0,198.49
+2024-01-01,G017,Glasswing,unallocated,28.59,0.0,28.59
+2024-01-01,G017,Glasswing,wallet_transfer,0.0,40.84,-40.84
+2024-01-01,G009,Ironclad Frontier,bank_payout,637.78,0.0,637.78
+2024-01-01,G009,Ironclad Frontier,gift_card,480.55,199.75,280.8
+2024-01-01,G009,Ironclad Frontier,instant_debit_payout,605.86,0.0,605.86
+2024-01-01,G009,Ironclad Frontier,unallocated,236.87,0.0,236.87
+2024-01-01,G009,Ironclad Frontier,wallet_transfer,0.0,78.35,-78.35
+2024-01-01,G006,Junkyard Racers,bank_payout,746.74,63.63,683.1
+2024-01-01,G006,Junkyard Racers,gift_card,478.64,133.9,344.74
+2024-01-01,G006,Junkyard Racers,instant_debit_payout,127.37,0.0,127.37
+2024-01-01,G006,Junkyard Racers,wallet_transfer,0.0,0.0,0.0
+2024-01-01,G015,Lantern Keep,bank_payout,430.78,125.21,305.56
+2024-01-01,G015,Lantern Keep,gift_card,600.95,179.75,421.21
+2024-01-01,G015,Lantern Keep,instant_debit_payout,957.0,0.0,957.0
+2024-01-01,G015,Lantern Keep,wallet_transfer,375.37,251.29,124.07
+2024-01-01,G007,Mystic Tides,bank_payout,1747.56,272.0,1475.57
+2024-01-01,G007,Mystic Tides,gift_card,1100.82,508.38,592.44
+2024-01-01,G007,Mystic Tides,instant_debit_payout,56.52,0.0,56.52
+2024-01-01,G007,Mystic Tides,unallocated,158.82,0.0,158.82
+2024-01-01,G007,Mystic Tides,wallet_transfer,257.72,72.43,185.29
+2024-01-01,G003,Neon Drift,bank_payout,1385.12,183.7,1201.42
+2024-01-01,G003,Neon Drift,gift_card,539.24,275.25,263.99
+2024-01-01,G003,Neon Drift,instant_debit_payout,721.51,0.0,721.51
+2024-01-01,G003,Neon Drift,unallocated,432.56,0.0,432.56
+2024-01-01,G003,Neon Drift,wallet_transfer,0.0,0.0,0.0
+2024-01-01,G002,Pixel Kingdoms,bank_payout,1858.58,238.95,1619.63
+2024-01-01,G002,Pixel Kingdoms,gift_card,525.66,83.22,442.44
+2024-01-01,G002,Pixel Kingdoms,instant_debit_payout,270.13,0.0,270.13
+2024-01-01,G002,Pixel Kingdoms,unallocated,69.92,0.0,69.92
+2024-01-01,G002,Pixel Kingdoms,wallet_transfer,0.0,294.47,-294.47
+2024-01-01,G016,Rustbelt Renegades,bank_payout,1213.15,538.06,675.09
+2024-01-01,G016,Rustbelt Renegades,gift_card,883.78,0.0,883.78
+2024-01-01,G016,Rustbelt Renegades,instant_debit_payout,1227.73,0.0,1227.73
+2024-01-01,G016,Rustbelt Renegades,unallocated,0.0,0.0,0.0
+2024-01-01,G016,Rustbelt Renegades,wallet_transfer,84.91,262.29,-177.38
+2024-01-01,G001,Skyline Raiders,bank_payout,279.42,127.25,152.17
+2024-01-01,G001,Skyline Raiders,gift_card,141.16,26.41,114.75
+2024-01-01,G001,Skyline Raiders,instant_debit_payout,92.24,0.0,92.24
+2024-01-01,G001,Skyline Raiders,unallocated,17.64,0.0,17.64
+2024-01-01,G001,Skyline Raiders,wallet_transfer,0.0,0.0,0.0
+2024-01-01,G005,Starbound Legion,bank_payout,621.97,0.0,621.97
+2024-01-01,G005,Starbound Legion,gift_card,416.41,271.36,145.06
+2024-01-01,G005,Starbound Legion,instant_debit_payout,241.89,0.0,241.89
+2024-01-01,G005,Starbound Legion,unallocated,48.42,0.0,48.42
+2024-01-01,G005,Starbound Legion,wallet_transfer,0.0,0.0,0.0
+2024-01-01,G018,Tideforge,bank_payout,1566.61,260.72,1305.89
+2024-01-01,G018,Tideforge,gift_card,515.83,0.0,515.83
+2024-01-01,G018,Tideforge,instant_debit_payout,615.13,0.0,615.13
+2024-01-01,G018,Tideforge,wallet_transfer,0.0,87.86,-87.86
+2024-01-01,G008,Velocity Clash,bank_payout,1356.37,13.87,1342.49
+2024-01-01,G008,Velocity Clash,gift_card,1109.37,176.5,932.87
+2024-01-01,G008,Velocity Clash,instant_debit_payout,1245.9,0.0,1245.9
+2024-01-01,G008,Velocity Clash,wallet_transfer,208.29,117.76,90.53
+2024-01-01,G010,Whispering Hollow,bank_payout,1126.41,69.67,1056.74
+2024-01-01,G010,Whispering Hollow,gift_card,1153.83,804.34,349.49
+2024-01-01,G010,Whispering Hollow,instant_debit_payout,0.0,0.0,0.0
+2024-01-01,G010,Whispering Hollow,wallet_transfer,215.06,0.0,215.06
+2024-02-01,G011,Arcadia Nights,bank_payout,407.03,0.0,618.64
+2024-02-01,G011,Arcadia Nights,gift_card,870.57,333.67,1340.9
+2024-02-01,G011,Arcadia Nights,instant_debit_payout,0.0,0.0,0.0
+2024-02-01,G011,Arcadia Nights,unallocated,115.7,0.0,822.46
+2024-02-01,G011,Arcadia Nights,wallet_transfer,0.0,0.0,0.0
+2024-02-01,G014,Circuit Breakers,bank_payout,1179.78,0.0,1985.8
+2024-02-01,G014,Circuit Breakers,gift_card,1149.88,255.52,1745.31
+2024-02-01,G014,Circuit Breakers,instant_debit_payout,270.38,11.93,649.36
+2024-02-01,G014,Circuit Breakers,unallocated,599.05,0.0,938.68
+2024-02-01,G014,Circuit Breakers,wallet_transfer,891.82,65.35,1694.11
+2024-02-01,G012,Dustbowl Derby,bank_payout,443.02,249.13,544.65
+2024-02-01,G012,Dustbowl Derby,gift_card,591.98,0.0,750.54
+2024-02-01,G012,Dustbowl Derby,instant_debit_payout,783.88,128.47,1464.26
+2024-02-01,G012,Dustbowl Derby,unallocated,124.85,0.0,133.61
+2024-02-01,G012,Dustbowl Derby,wallet_transfer,605.43,0.0,716.89
+2024-02-01,G013,Emberfall,bank_payout,934.58,108.83,2433.42
+2024-02-01,G013,Emberfall,gift_card,468.85,120.91,397.07
+2024-02-01,G013,Emberfall,instant_debit_payout,113.76,0.0,209.99
+2024-02-01,G013,Emberfall,unallocated,244.69,0.0,405.71
+2024-02-01,G013,Emberfall,wallet_transfer,86.58,0.0,369.68
+2024-02-01,G004,Fable Forge,bank_payout,86.22,13.55,162.6
+2024-02-01,G004,Fable Forge,gift_card,1178.98,516.08,2162.0
+2024-02-01,G004,Fable Forge,instant_debit_payout,887.57,69.46,2205.44
+2024-02-01,G004,Fable Forge,unallocated,37.55,0.0,46.72
+2024-02-01,G004,Fable Forge,wallet_transfer,60.27,302.16,-124.84
+2024-02-01,G017,Glasswing,bank_payout,922.99,338.16,1303.29
+2024-02-01,G017,Glasswing,gift_card,759.41,157.64,997.16
+2024-02-01,G017,Glasswing,instant_debit_payout,74.37,40.58,232.28
+2024-02-01,G017,Glasswing,unallocated,0.0,0.0,28.59
+2024-02-01,G017,Glasswing,wallet_transfer,0.0,0.0,-40.84
+2024-02-01,G009,Ironclad Frontier,bank_payout,432.42,123.99,946.21
+2024-02-01,G009,Ironclad Frontier,gift_card,734.64,0.0,1015.44
+2024-02-01,G009,Ironclad Frontier,instant_debit_payout,695.17,0.0,1301.03
+2024-02-01,G009,Ironclad Frontier,unallocated,353.87,0.0,590.74
+2024-02-01,G009,Ironclad Frontier,wallet_transfer,0.0,0.0,-78.35
+2024-02-01,G006,Junkyard Racers,bank_payout,372.08,31.04,1024.14
+2024-02-01,G006,Junkyard Racers,gift_card,330.84,50.77,624.81
+2024-02-01,G006,Junkyard Racers,instant_debit_payout,178.17,0.0,305.54
+2024-02-01,G006,Junkyard Racers,wallet_transfer,0.0,0.0,0.0
+2024-02-01,G015,Lantern Keep,bank_payout,324.64,0.0,630.21
+2024-02-01,G015,Lantern Keep,gift_card,424.03,32.42,812.82
+2024-02-01,G015,Lantern Keep,instant_debit_payout,1247.04,241.19,1962.85
+2024-02-01,G015,Lantern Keep,wallet_transfer,362.26,0.0,486.33
+2024-02-01,G007,Mystic Tides,bank_payout,1798.54,0.0,3274.11
+2024-02-01,G007,Mystic Tides,gift_card,588.14,237.24,943.33
+2024-02-01,G007,Mystic Tides,instant_debit_payout,72.36,86.44,42.45
+2024-02-01,G007,Mystic Tides,unallocated,304.15,0.0,462.97
+2024-02-01,G007,Mystic Tides,wallet_transfer,234.82,38.19,381.91
+2024-02-01,G003,Neon Drift,bank_payout,687.08,0.0,1888.51
+2024-02-01,G003,Neon Drift,gift_card,342.59,102.4,504.18
+2024-02-01,G003,Neon Drift,instant_debit_payout,608.57,39.82,1290.27
+2024-02-01,G003,Neon Drift,unallocated,492.69,0.0,925.25
+2024-02-01,G003,Neon Drift,wallet_transfer,0.0,10.98,-10.98
+2024-02-01,G002,Pixel Kingdoms,bank_payout,846.77,125.98,2340.42
+2024-02-01,G002,Pixel Kingdoms,gift_card,662.96,110.91,994.5
+2024-02-01,G002,Pixel Kingdoms,instant_debit_payout,740.05,0.0,1010.18
+2024-02-01,G002,Pixel Kingdoms,unallocated,136.47,0.0,206.39
+2024-02-01,G002,Pixel Kingdoms,wallet_transfer,0.0,0.0,-294.47
+2024-02-01,G016,Rustbelt Renegades,bank_payout,780.22,267.54,1187.77
+2024-02-01,G016,Rustbelt Renegades,gift_card,371.89,157.65,1098.02
+2024-02-01,G016,Rustbelt Renegades,instant_debit_payout,1975.78,0.0,3203.52
+2024-02-01,G016,Rustbelt Renegades,unallocated,21.17,0.0,21.17
+2024-02-01,G016,Rustbelt Renegades,wallet_transfer,521.04,-33.49,377.15
+2024-02-01,G001,Skyline Raiders,bank_payout,685.22,0.0,837.38
+2024-02-01,G001,Skyline Raiders,gift_card,357.08,123.64,348.19
+2024-02-01,G001,Skyline Raiders,instant_debit_payout,94.64,0.0,186.88
+2024-02-01,G001,Skyline Raiders,unallocated,0.0,0.0,17.64
+2024-02-01,G001,Skyline Raiders,wallet_transfer,0.0,0.0,0.0
+2024-02-01,G005,Starbound Legion,bank_payout,247.61,74.95,794.63
+2024-02-01,G005,Starbound Legion,gift_card,1208.57,57.2,1296.43
+2024-02-01,G005,Starbound Legion,instant_debit_payout,117.53,0.0,359.42
+2024-02-01,G005,Starbound Legion,unallocated,71.4,0.0,119.82
+2024-02-01,G005,Starbound Legion,wallet_transfer,0.0,129.69,-129.69
+2024-02-01,G018,Tideforge,bank_payout,1366.77,0.0,2672.65
+2024-02-01,G018,Tideforge,gift_card,671.11,256.23,930.71
+2024-02-01,G018,Tideforge,instant_debit_payout,264.95,85.74,794.34
+2024-02-01,G018,Tideforge,wallet_transfer,0.0,53.44,-141.3
+2024-02-01,G008,Velocity Clash,bank_payout,787.34,292.56,1837.28
+2024-02-01,G008,Velocity Clash,gift_card,1011.63,109.81,1834.69
+2024-02-01,G008,Velocity Clash,instant_debit_payout,411.97,162.99,1494.88
+2024-02-01,G008,Velocity Clash,wallet_transfer,130.13,64.59,156.07
+2024-02-01,G010,Whispering Hollow,bank_payout,717.62,96.06,1678.31
+2024-02-01,G010,Whispering Hollow,gift_card,1916.44,-139.65,2405.58
+2024-02-01,G010,Whispering Hollow,instant_debit_payout,0.0,0.0,0.0
+2024-02-01,G010,Whispering Hollow,wallet_transfer,95.32,220.24,90.15
+2024-03-01,G011,Arcadia Nights,bank_payout,566.4,0.0,1185.04
+2024-03-01,G011,Arcadia Nights,gift_card,1077.79,86.98,2331.7
+2024-03-01,G011,Arcadia Nights,instant_debit_payout,0.0,51.33,-51.33
+2024-03-01,G011,Arcadia Nights,unallocated,305.35,0.0,1127.81
+2024-03-01,G011,Arcadia Nights,wallet_transfer,0.0,0.0,0.0
+2024-03-01,G014,Circuit Breakers,bank_payout,788.06,0.0,2773.87
+2024-03-01,G014,Circuit Breakers,gift_card,1286.27,0.0,3031.59
+2024-03-01,G014,Circuit Breakers,instant_debit_payout,395.24,143.97,900.64
+2024-03-01,G014,Circuit Breakers,unallocated,489.45,0.0,1428.13
+2024-03-01,G014,Circuit Breakers,wallet_transfer,436.23,145.21,1985.13
+2024-03-01,G012,Dustbowl Derby,bank_payout,269.63,0.0,814.27
+2024-03-01,G012,Dustbowl Derby,gift_card,621.84,118.3,1254.09
+2024-03-01,G012,Dustbowl Derby,instant_debit_payout,800.62,135.31,2129.57
+2024-03-01,G012,Dustbowl Derby,unallocated,0.0,0.0,133.61
+2024-03-01,G012,Dustbowl Derby,wallet_transfer,356.84,0.0,1073.72
+2024-03-01,G013,Emberfall,bank_payout,1099.83,152.19,3381.06
+2024-03-01,G013,Emberfall,gift_card,838.26,114.45,1120.89
+2024-03-01,G013,Emberfall,instant_debit_payout,780.43,0.0,990.42
+2024-03-01,G013,Emberfall,unallocated,114.22,0.0,519.93
+2024-03-01,G013,Emberfall,wallet_transfer,141.2,0.0,510.88
+2024-03-01,G004,Fable Forge,bank_payout,309.49,154.29,317.8
+2024-03-01,G004,Fable Forge,gift_card,1103.73,199.66,3066.07
+2024-03-01,G004,Fable Forge,instant_debit_payout,795.59,41.67,2959.37
+2024-03-01,G004,Fable Forge,unallocated,0.0,0.0,46.72
+2024-03-01,G004,Fable Forge,wallet_transfer,142.1,199.6,-182.34
+2024-03-01,G017,Glasswing,bank_payout,741.29,169.36,1875.21
+2024-03-01,G017,Glasswing,gift_card,626.69,187.72,1436.12
+2024-03-01,G017,Glasswing,instant_debit_payout,495.38,21.85,705.81
+2024-03-01,G017,Glasswing,unallocated,0.0,0.0,28.59
+2024-03-01,G017,Glasswing,wallet_transfer,0.0,0.0,-40.84
+2024-03-01,G009,Ironclad Frontier,bank_payout,857.02,70.0,1733.24
+2024-03-01,G009,Ironclad Frontier,gift_card,898.94,0.0,1914.38
+2024-03-01,G009,Ironclad Frontier,instant_debit_payout,739.7,240.15,1800.58
+2024-03-01,G009,Ironclad Frontier,unallocated,153.29,0.0,744.03
+2024-03-01,G009,Ironclad Frontier,wallet_transfer,0.0,0.0,-78.35
+2024-03-01,G006,Junkyard Racers,bank_payout,359.55,0.0,1383.69
+2024-03-01,G006,Junkyard Racers,gift_card,639.14,0.0,1263.95
+2024-03-01,G006,Junkyard Racers,instant_debit_payout,60.92,0.0,366.46
+2024-03-01,G006,Junkyard Racers,wallet_transfer,0.0,0.0,0.0
+2024-03-01,G015,Lantern Keep,bank_payout,423.68,0.0,1053.89
+2024-03-01,G015,Lantern Keep,gift_card,435.86,250.31,998.37
+2024-03-01,G015,Lantern Keep,instant_debit_payout,1136.01,160.32,2938.54
+2024-03-01,G015,Lantern Keep,wallet_transfer,653.2,0.0,1139.53
+2024-03-01,G007,Mystic Tides,bank_payout,1212.78,259.87,4227.02
+2024-03-01,G007,Mystic Tides,gift_card,949.01,197.62,1694.73
+2024-03-01,G007,Mystic Tides,instant_debit_payout,116.29,0.0,158.74
+2024-03-01,G007,Mystic Tides,unallocated,214.51,0.0,677.48
+2024-03-01,G007,Mystic Tides,wallet_transfer,43.99,0.0,425.91
+2024-03-01,G003,Neon Drift,bank_payout,341.26,0.0,2229.76
+2024-03-01,G003,Neon Drift,gift_card,159.82,0.0,664.01
+2024-03-01,G003,Neon Drift,instant_debit_payout,835.4,91.45,2034.21
+2024-03-01,G003,Neon Drift,unallocated,152.22,0.0,1077.47
+2024-03-01,G003,Neon Drift,wallet_transfer,0.0,164.82,-175.8
+2024-03-01,G002,Pixel Kingdoms,bank_payout,1290.32,134.85,3495.89
+2024-03-01,G002,Pixel Kingdoms,gift_card,758.08,0.0,1752.57
+2024-03-01,G002,Pixel Kingdoms,instant_debit_payout,714.88,182.56,1542.5
+2024-03-01,G002,Pixel Kingdoms,unallocated,236.43,0.0,442.82
+2024-03-01,G002,Pixel Kingdoms,wallet_transfer,0.0,232.9,-527.37
+2024-03-01,G016,Rustbelt Renegades,bank_payout,807.7,0.0,1995.47
+2024-03-01,G016,Rustbelt Renegades,gift_card,307.44,20.14,1385.32
+2024-03-01,G016,Rustbelt Renegades,instant_debit_payout,1466.9,40.44,4629.97
+2024-03-01,G016,Rustbelt Renegades,unallocated,34.52,0.0,55.69
+2024-03-01,G016,Rustbelt Renegades,wallet_transfer,316.57,225.98,467.75
+2024-03-01,G001,Skyline Raiders,bank_payout,275.67,50.05,1063.01
+2024-03-01,G001,Skyline Raiders,gift_card,59.7,0.0,407.89
+2024-03-01,G001,Skyline Raiders,instant_debit_payout,75.09,29.94,232.04
+2024-03-01,G001,Skyline Raiders,unallocated,22.32,0.0,39.97
+2024-03-01,G001,Skyline Raiders,wallet_transfer,0.0,0.0,0.0
+2024-03-01,G005,Starbound Legion,bank_payout,531.02,0.0,1325.65
+2024-03-01,G005,Starbound Legion,gift_card,821.16,0.0,2117.6
+2024-03-01,G005,Starbound Legion,instant_debit_payout,39.1,137.37,261.15
+2024-03-01,G005,Starbound Legion,unallocated,110.44,0.0,230.26
+2024-03-01,G005,Starbound Legion,wallet_transfer,0.0,0.0,-129.69
+2024-03-01,G018,Tideforge,bank_payout,1678.51,102.33,4248.84
+2024-03-01,G018,Tideforge,gift_card,605.51,238.42,1297.8
+2024-03-01,G018,Tideforge,instant_debit_payout,842.51,218.28,1418.57
+2024-03-01,G018,Tideforge,wallet_transfer,0.0,0.0,-141.3
+2024-03-01,G008,Velocity Clash,bank_payout,972.32,45.65,2763.95
+2024-03-01,G008,Velocity Clash,gift_card,1406.02,0.0,3240.71
+2024-03-01,G008,Velocity Clash,instant_debit_payout,892.14,307.85,2079.18
+2024-03-01,G008,Velocity Clash,wallet_transfer,211.7,174.99,192.78
+2024-03-01,G010,Whispering Hollow,bank_payout,612.93,0.0,2291.24
+2024-03-01,G010,Whispering Hollow,gift_card,1612.41,54.14,3963.86
+2024-03-01,G010,Whispering Hollow,instant_debit_payout,0.0,45.76,-45.76
+2024-03-01,G010,Whispering Hollow,wallet_transfer,129.81,12.58,207.38
+2024-04-01,G011,Arcadia Nights,bank_payout,477.13,0.0,1662.17
+2024-04-01,G011,Arcadia Nights,gift_card,1237.74,0.0,3569.44
+2024-04-01,G011,Arcadia Nights,instant_debit_payout,0.0,117.98,-169.31
+2024-04-01,G011,Arcadia Nights,unallocated,738.17,0.0,1865.97
+2024-04-01,G011,Arcadia Nights,wallet_transfer,0.0,0.0,0.0
+2024-04-01,G014,Circuit Breakers,bank_payout,1256.41,0.0,4030.27
+2024-04-01,G014,Circuit Breakers,gift_card,1119.08,101.29,4049.37
+2024-04-01,G014,Circuit Breakers,instant_debit_payout,727.01,81.62,1546.02
+2024-04-01,G014,Circuit Breakers,unallocated,527.74,0.0,1955.87
+2024-04-01,G014,Circuit Breakers,wallet_transfer,733.92,185.7,2533.35
+2024-04-01,G012,Dustbowl Derby,bank_payout,720.27,0.0,1534.54
+2024-04-01,G012,Dustbowl Derby,gift_card,378.31,382.26,1250.13
+2024-04-01,G012,Dustbowl Derby,instant_debit_payout,1003.09,261.36,2871.3
+2024-04-01,G012,Dustbowl Derby,unallocated,7.95,0.0,141.56
+2024-04-01,G012,Dustbowl Derby,wallet_transfer,573.09,0.0,1646.81
+2024-04-01,G013,Emberfall,bank_payout,1140.57,121.2,4400.43
+2024-04-01,G013,Emberfall,gift_card,430.87,0.0,1551.75
+2024-04-01,G013,Emberfall,instant_debit_payout,144.19,0.0,1134.61
+2024-04-01,G013,Emberfall,unallocated,351.87,0.0,871.8
+2024-04-01,G013,Emberfall,wallet_transfer,137.2,105.83,542.25
+2024-04-01,G004,Fable Forge,bank_payout,94.68,0.0,412.47
+2024-04-01,G004,Fable Forge,gift_card,2164.49,104.33,5126.23
+2024-04-01,G004,Fable Forge,instant_debit_payout,1044.78,154.96,3849.19
+2024-04-01,G004,Fable Forge,unallocated,6.28,0.0,53.0
+2024-04-01,G004,Fable Forge,wallet_transfer,303.67,40.28,81.05
+2024-04-01,G017,Glasswing,bank_payout,1864.32,0.0,3739.53
+2024-04-01,G017,Glasswing,gift_card,795.74,31.53,2200.32
+2024-04-01,G017,Glasswing,instant_debit_payout,142.88,102.06,746.63
+2024-04-01,G017,Glasswing,unallocated,0.0,0.0,28.59
+2024-04-01,G017,Glasswing,wallet_transfer,0.0,0.0,-40.84
+2024-04-01,G009,Ironclad Frontier,bank_payout,162.92,0.0,1896.15
+2024-04-01,G009,Ironclad Frontier,gift_card,541.64,166.98,2289.05
+2024-04-01,G009,Ironclad Frontier,instant_debit_payout,784.62,168.19,2417.01
+2024-04-01,G009,Ironclad Frontier,unallocated,857.8,0.0,1601.83
+2024-04-01,G009,Ironclad Frontier,wallet_transfer,0.0,43.41,-121.77
+2024-04-01,G006,Junkyard Racers,bank_payout,985.41,0.0,2369.1
+2024-04-01,G006,Junkyard Racers,gift_card,707.13,265.11,1705.97
+2024-04-01,G006,Junkyard Racers,instant_debit_payout,309.66,0.0,676.12
+2024-04-01,G006,Junkyard Racers,wallet_transfer,0.0,0.0,0.0
+2024-04-01,G015,Lantern Keep,bank_payout,532.64,0.0,1586.53
+2024-04-01,G015,Lantern Keep,gift_card,323.66,78.61,1243.42
+2024-04-01,G015,Lantern Keep,instant_debit_payout,1278.88,295.88,3921.54
+2024-04-01,G015,Lantern Keep,wallet_transfer,251.95,0.0,1391.47
+2024-04-01,G007,Mystic Tides,bank_payout,954.78,42.67,5139.13
+2024-04-01,G007,Mystic Tides,gift_card,1187.8,147.52,2735.01
+2024-04-01,G007,Mystic Tides,instant_debit_payout,74.76,199.61,33.89
+2024-04-01,G007,Mystic Tides,unallocated,277.39,0.0,954.86
+2024-04-01,G007,Mystic Tides,wallet_transfer,241.53,0.0,667.44
+2024-04-01,G003,Neon Drift,bank_payout,838.44,0.0,3068.2
+2024-04-01,G003,Neon Drift,gift_card,734.69,0.0,1398.7
+2024-04-01,G003,Neon Drift,instant_debit_payout,708.23,0.0,2742.43
+2024-04-01,G003,Neon Drift,unallocated,647.12,0.0,1724.59
+2024-04-01,G003,Neon Drift,wallet_transfer,0.0,0.0,-175.8
+2024-04-01,G002,Pixel Kingdoms,bank_payout,1784.47,75.04,5205.32
+2024-04-01,G002,Pixel Kingdoms,gift_card,531.76,127.34,2156.98
+2024-04-01,G002,Pixel Kingdoms,instant_debit_payout,1150.56,182.83,2510.23
+2024-04-01,G002,Pixel Kingdoms,unallocated,245.58,0.0,688.4
+2024-04-01,G002,Pixel Kingdoms,wallet_transfer,0.0,46.63,-574.0
+2024-04-01,G016,Rustbelt Renegades,bank_payout,733.14,0.0,2728.62
+2024-04-01,G016,Rustbelt Renegades,gift_card,397.98,149.38,1633.92
+2024-04-01,G016,Rustbelt Renegades,instant_debit_payout,2171.48,262.25,6539.21
+2024-04-01,G016,Rustbelt Renegades,unallocated,0.0,0.0,55.69
+2024-04-01,G016,Rustbelt Renegades,wallet_transfer,299.38,96.97,670.16
+2024-04-01,G001,Skyline Raiders,bank_payout,792.74,50.44,1805.31
+2024-04-01,G001,Skyline Raiders,gift_card,126.57,0.0,534.46
+2024-04-01,G001,Skyline Raiders,instant_debit_payout,418.34,0.0,650.37
+2024-04-01,G001,Skyline Raiders,unallocated,8.41,0.0,48.37
+2024-04-01,G001,Skyline Raiders,wallet_transfer,0.0,123.24,-123.24
+2024-04-01,G005,Starbound Legion,bank_payout,192.5,101.69,1416.45
+2024-04-01,G005,Starbound Legion,gift_card,960.34,0.0,3077.93
+2024-04-01,G005,Starbound Legion,instant_debit_payout,215.69,0.0,476.84
+2024-04-01,G005,Starbound Legion,unallocated,75.4,0.0,305.66
+2024-04-01,G005,Starbound Legion,wallet_transfer,0.0,0.0,-129.69
+2024-04-01,G018,Tideforge,bank_payout,1177.51,269.37,5156.98
+2024-04-01,G018,Tideforge,gift_card,713.41,130.21,1881.0
+2024-04-01,G018,Tideforge,instant_debit_payout,628.27,49.47,1997.37
+2024-04-01,G018,Tideforge,wallet_transfer,0.0,115.94,-257.24
+2024-04-01,G008,Velocity Clash,bank_payout,1081.5,140.18,3705.27
+2024-04-01,G008,Velocity Clash,gift_card,1051.07,105.27,4186.51
+2024-04-01,G008,Velocity Clash,instant_debit_payout,474.38,74.51,2479.05
+2024-04-01,G008,Velocity Clash,wallet_transfer,334.79,0.0,527.57
+2024-04-01,G010,Whispering Hollow,bank_payout,494.37,331.22,2454.39
+2024-04-01,G010,Whispering Hollow,gift_card,1414.61,234.89,5143.58
+2024-04-01,G010,Whispering Hollow,instant_debit_payout,0.0,231.46,-277.22
+2024-04-01,G010,Whispering Hollow,wallet_transfer,106.69,0.0,314.07
+2024-05-01,G011,Arcadia Nights,bank_payout,480.4,100.38,2042.19
+2024-05-01,G011,Arcadia Nights,gift_card,2507.36,51.62,6025.18
+2024-05-01,G011,Arcadia Nights,instant_debit_payout,0.0,39.81,-209.12
+2024-05-01,G011,Arcadia Nights,unallocated,208.16,0.0,2074.13
+2024-05-01,G011,Arcadia Nights,wallet_transfer,0.0,0.0,0.0
+2024-05-01,G014,Circuit Breakers,bank_payout,996.32,130.9,4895.69
+2024-05-01,G014,Circuit Breakers,gift_card,1571.47,64.74,5556.1
+2024-05-01,G014,Circuit Breakers,instant_debit_payout,336.55,359.55,1523.03
+2024-05-01,G014,Circuit Breakers,unallocated,693.0,0.0,2648.86
+2024-05-01,G014,Circuit Breakers,wallet_transfer,531.72,149.07,2916.0
+2024-05-01,G012,Dustbowl Derby,bank_payout,894.24,0.0,2428.78
+2024-05-01,G012,Dustbowl Derby,gift_card,477.51,67.25,1660.39
+2024-05-01,G012,Dustbowl Derby,instant_debit_payout,553.09,501.32,2923.06
+2024-05-01,G012,Dustbowl Derby,unallocated,119.89,0.0,261.45
+2024-05-01,G012,Dustbowl Derby,wallet_transfer,614.23,172.9,2088.14
+2024-05-01,G013,Emberfall,bank_payout,475.45,0.0,4875.88
+2024-05-01,G013,Emberfall,gift_card,671.73,0.0,2223.48
+2024-05-01,G013,Emberfall,instant_debit_payout,273.26,43.18,1364.69
+2024-05-01,G013,Emberfall,unallocated,212.53,0.0,1084.33
+2024-05-01,G013,Emberfall,wallet_transfer,72.0,0.0,614.25
+2024-05-01,G004,Fable Forge,bank_payout,596.85,13.57,995.76
+2024-05-01,G004,Fable Forge,gift_card,2494.64,84.16,7536.71
+2024-05-01,G004,Fable Forge,instant_debit_payout,1172.44,289.1,4732.52
+2024-05-01,G004,Fable Forge,unallocated,0.0,0.0,53.0
+2024-05-01,G004,Fable Forge,wallet_transfer,124.47,110.98,94.54
+2024-05-01,G017,Glasswing,bank_payout,867.96,0.0,4607.49
+2024-05-01,G017,Glasswing,gift_card,1357.95,0.0,3558.27
+2024-05-01,G017,Glasswing,instant_debit_payout,207.49,334.63,619.49
+2024-05-01,G017,Glasswing,unallocated,27.25,0.0,55.85
+2024-05-01,G017,Glasswing,wallet_transfer,0.0,0.0,-40.84
+2024-05-01,G009,Ironclad Frontier,bank_payout,572.92,0.0,2469.07
+2024-05-01,G009,Ironclad Frontier,gift_card,583.98,0.0,2873.03
+2024-05-01,G009,Ironclad Frontier,instant_debit_payout,490.45,494.95,2412.51
+2024-05-01,G009,Ironclad Frontier,unallocated,654.14,0.0,2255.97
+2024-05-01,G009,Ironclad Frontier,wallet_transfer,0.0,0.0,-121.77
+2024-05-01,G006,Junkyard Racers,bank_payout,286.08,0.0,2655.18
+2024-05-01,G006,Junkyard Racers,gift_card,510.83,0.0,2216.8
+2024-05-01,G006,Junkyard Racers,instant_debit_payout,326.15,114.64,887.63
+2024-05-01,G006,Junkyard Racers,wallet_transfer,0.0,72.06,-72.06
+2024-05-01,G015,Lantern Keep,bank_payout,277.46,0.0,1863.99
+2024-05-01,G015,Lantern Keep,gift_card,1188.76,123.77,2308.41
+2024-05-01,G015,Lantern Keep,instant_debit_payout,2019.11,362.04,5578.61
+2024-05-01,G015,Lantern Keep,wallet_transfer,262.47,0.0,1653.94
+2024-05-01,G007,Mystic Tides,bank_payout,1071.05,30.78,6179.4
+2024-05-01,G007,Mystic Tides,gift_card,1071.58,0.0,3806.59
+2024-05-01,G007,Mystic Tides,instant_debit_payout,17.21,209.21,-158.12
+2024-05-01,G007,Mystic Tides,unallocated,130.27,0.0,1085.13
+2024-05-01,G007,Mystic Tides,wallet_transfer,195.37,0.0,862.81
+2024-05-01,G003,Neon Drift,bank_payout,462.88,0.0,3531.08
+2024-05-01,G003,Neon Drift,gift_card,329.02,164.53,1563.19
+2024-05-01,G003,Neon Drift,instant_debit_payout,512.33,161.74,3093.02
+2024-05-01,G003,Neon Drift,unallocated,614.15,0.0,2338.74
+2024-05-01,G003,Neon Drift,wallet_transfer,0.0,0.0,-175.8
+2024-05-01,G002,Pixel Kingdoms,bank_payout,1502.62,52.52,6655.42
+2024-05-01,G002,Pixel Kingdoms,gift_card,541.07,121.71,2576.34
+2024-05-01,G002,Pixel Kingdoms,instant_debit_payout,683.64,129.18,3064.68
+2024-05-01,G002,Pixel Kingdoms,unallocated,185.46,0.0,873.86
+2024-05-01,G002,Pixel Kingdoms,wallet_transfer,0.0,0.0,-574.0
+2024-05-01,G016,Rustbelt Renegades,bank_payout,730.37,12.25,3446.74
+2024-05-01,G016,Rustbelt Renegades,gift_card,805.49,104.4,2335.02
+2024-05-01,G016,Rustbelt Renegades,instant_debit_payout,1494.06,712.07,7321.2
+2024-05-01,G016,Rustbelt Renegades,unallocated,7.19,0.0,62.88
+2024-05-01,G016,Rustbelt Renegades,wallet_transfer,288.84,0.0,959.0
+2024-05-01,G001,Skyline Raiders,bank_payout,397.42,0.0,2202.73
+2024-05-01,G001,Skyline Raiders,gift_card,100.0,0.0,634.46
+2024-05-01,G001,Skyline Raiders,instant_debit_payout,206.47,70.31,786.53
+2024-05-01,G001,Skyline Raiders,unallocated,29.54,0.0,77.92
+2024-05-01,G001,Skyline Raiders,wallet_transfer,0.0,0.0,-123.24
+2024-05-01,G005,Starbound Legion,bank_payout,161.23,25.28,1552.39
+2024-05-01,G005,Starbound Legion,gift_card,882.97,0.0,3960.9
+2024-05-01,G005,Starbound Legion,instant_debit_payout,314.85,37.56,754.13
+2024-05-01,G005,Starbound Legion,unallocated,34.29,0.0,339.95
+2024-05-01,G005,Starbound Legion,wallet_transfer,0.0,113.19,-242.88
+2024-05-01,G018,Tideforge,bank_payout,1440.85,62.87,6534.96
+2024-05-01,G018,Tideforge,gift_card,1237.86,0.0,3118.86
+2024-05-01,G018,Tideforge,instant_debit_payout,646.97,335.76,2308.57
+2024-05-01,G018,Tideforge,wallet_transfer,0.0,0.0,-257.24
+2024-05-01,G008,Velocity Clash,bank_payout,1009.65,80.71,4634.21
+2024-05-01,G008,Velocity Clash,gift_card,893.86,57.65,5022.72
+2024-05-01,G008,Velocity Clash,instant_debit_payout,508.7,150.65,2837.1
+2024-05-01,G008,Velocity Clash,wallet_transfer,35.21,121.02,441.76
+2024-05-01,G010,Whispering Hollow,bank_payout,478.72,0.0,2933.11
+2024-05-01,G010,Whispering Hollow,gift_card,1980.19,213.49,6910.28
+2024-05-01,G010,Whispering Hollow,instant_debit_payout,0.0,282.54,-559.76
+2024-05-01,G010,Whispering Hollow,wallet_transfer,499.0,41.23,771.84
+2024-06-01,G011,Arcadia Nights,bank_payout,691.37,0.0,2733.56
+2024-06-01,G011,Arcadia Nights,gift_card,1371.07,0.0,7396.25
+2024-06-01,G011,Arcadia Nights,instant_debit_payout,0.0,145.13,-354.25
+2024-06-01,G011,Arcadia Nights,unallocated,344.76,0.0,2418.89
+2024-06-01,G011,Arcadia Nights,wallet_transfer,0.0,0.0,0.0
+2024-06-01,G014,Circuit Breakers,bank_payout,1460.32,0.0,6356.01
+2024-06-01,G014,Circuit Breakers,gift_card,1182.35,122.44,6616.01
+2024-06-01,G014,Circuit Breakers,instant_debit_payout,365.0,339.6,1548.43
+2024-06-01,G014,Circuit Breakers,unallocated,631.43,0.0,3280.29
+2024-06-01,G014,Circuit Breakers,wallet_transfer,317.06,0.0,3233.06
+2024-06-01,G012,Dustbowl Derby,bank_payout,539.77,0.0,2968.55
+2024-06-01,G012,Dustbowl Derby,gift_card,156.71,0.0,1817.1
+2024-06-01,G012,Dustbowl Derby,instant_debit_payout,707.45,180.18,3450.33
+2024-06-01,G012,Dustbowl Derby,unallocated,62.72,0.0,324.17
+2024-06-01,G012,Dustbowl Derby,wallet_transfer,614.64,70.42,2632.37
+2024-06-01,G013,Emberfall,bank_payout,908.42,145.85,5638.44
+2024-06-01,G013,Emberfall,gift_card,619.26,0.0,2842.75
+2024-06-01,G013,Emberfall,instant_debit_payout,423.54,176.35,1611.88
+2024-06-01,G013,Emberfall,unallocated,520.88,0.0,1605.21
+2024-06-01,G013,Emberfall,wallet_transfer,219.94,119.8,714.39
+2024-06-01,G004,Fable Forge,bank_payout,225.07,0.0,1220.82
+2024-06-01,G004,Fable Forge,gift_card,1464.63,21.79,8979.55
+2024-06-01,G004,Fable Forge,instant_debit_payout,1444.95,334.87,5842.61
+2024-06-01,G004,Fable Forge,unallocated,0.0,0.0,53.0
+2024-06-01,G004,Fable Forge,wallet_transfer,537.0,149.83,481.72
+2024-06-01,G017,Glasswing,bank_payout,564.55,0.0,5172.04
+2024-06-01,G017,Glasswing,gift_card,415.65,132.69,3841.23
+2024-06-01,G017,Glasswing,instant_debit_payout,155.37,190.78,584.08
+2024-06-01,G017,Glasswing,unallocated,75.47,0.0,131.31
+2024-06-01,G017,Glasswing,wallet_transfer,0.0,0.0,-40.84
+2024-06-01,G009,Ironclad Frontier,bank_payout,780.17,85.81,3163.43
+2024-06-01,G009,Ironclad Frontier,gift_card,560.68,89.66,3344.04
+2024-06-01,G009,Ironclad Frontier,instant_debit_payout,910.66,120.35,3202.82
+2024-06-01,G009,Ironclad Frontier,unallocated,102.61,0.0,2358.58
+2024-06-01,G009,Ironclad Frontier,wallet_transfer,0.0,0.0,-121.77
+2024-06-01,G006,Junkyard Racers,bank_payout,860.87,41.46,3474.59
+2024-06-01,G006,Junkyard Racers,gift_card,207.3,0.0,2424.1
+2024-06-01,G006,Junkyard Racers,instant_debit_payout,270.67,73.16,1085.14
+2024-06-01,G006,Junkyard Racers,wallet_transfer,0.0,0.0,-72.06
+2024-06-01,G015,Lantern Keep,bank_payout,658.22,166.87,2355.34
+2024-06-01,G015,Lantern Keep,gift_card,1189.95,145.35,3353.01
+2024-06-01,G015,Lantern Keep,instant_debit_payout,1926.65,132.52,7372.74
+2024-06-01,G015,Lantern Keep,wallet_transfer,704.44,56.26,2302.12
+2024-06-01,G007,Mystic Tides,bank_payout,1173.81,0.0,7353.2
+2024-06-01,G007,Mystic Tides,gift_card,1196.49,0.0,5003.08
+2024-06-01,G007,Mystic Tides,instant_debit_payout,181.94,182.64,-158.81
+2024-06-01,G007,Mystic Tides,unallocated,310.72,0.0,1395.86
+2024-06-01,G007,Mystic Tides,wallet_transfer,281.68,104.86,1039.62
+2024-06-01,G003,Neon Drift,bank_payout,976.55,74.25,4433.39
+2024-06-01,G003,Neon Drift,gift_card,219.34,0.0,1782.53
+2024-06-01,G003,Neon Drift,instant_debit_payout,1270.56,110.56,4253.02
+2024-06-01,G003,Neon Drift,unallocated,697.31,0.0,3036.05
+2024-06-01,G003,Neon Drift,wallet_transfer,0.0,0.0,-175.8
+2024-06-01,G002,Pixel Kingdoms,bank_payout,1887.66,97.74,8445.34
+2024-06-01,G002,Pixel Kingdoms,gift_card,694.73,50.49,3220.58
+2024-06-01,G002,Pixel Kingdoms,instant_debit_payout,785.36,516.89,3333.16
+2024-06-01,G002,Pixel Kingdoms,unallocated,150.62,0.0,1024.48
+2024-06-01,G002,Pixel Kingdoms,wallet_transfer,0.0,0.0,-574.0
+2024-06-01,G016,Rustbelt Renegades,bank_payout,784.49,139.93,4091.3
+2024-06-01,G016,Rustbelt Renegades,gift_card,804.27,0.0,3139.29
+2024-06-01,G016,Rustbelt Renegades,instant_debit_payout,1196.66,660.89,7856.97
+2024-06-01,G016,Rustbelt Renegades,unallocated,29.17,0.0,92.05
+2024-06-01,G016,Rustbelt Renegades,wallet_transfer,403.58,63.99,1298.59
+2024-06-01,G001,Skyline Raiders,bank_payout,407.7,0.0,2610.43
+2024-06-01,G001,Skyline Raiders,gift_card,87.69,0.0,722.15
+2024-06-01,G001,Skyline Raiders,instant_debit_payout,217.51,228.18,775.86
+2024-06-01,G001,Skyline Raiders,unallocated,55.61,0.0,133.53
+2024-06-01,G001,Skyline Raiders,wallet_transfer,0.0,0.0,-123.24
+2024-06-01,G005,Starbound Legion,bank_payout,350.73,0.0,1903.12
+2024-06-01,G005,Starbound Legion,gift_card,889.37,0.0,4850.27
+2024-06-01,G005,Starbound Legion,instant_debit_payout,109.81,0.0,863.94
+2024-06-01,G005,Starbound Legion,unallocated,50.37,0.0,390.32
+2024-06-01,G005,Starbound Legion,wallet_transfer,0.0,79.28,-322.16
+2024-06-01,G018,Tideforge,bank_payout,1032.3,175.71,7391.55
+2024-06-01,G018,Tideforge,gift_card,1357.51,0.0,4476.37
+2024-06-01,G018,Tideforge,instant_debit_payout,409.81,415.89,2302.49
+2024-06-01,G018,Tideforge,wallet_transfer,0.0,0.0,-257.24
+2024-06-01,G008,Velocity Clash,bank_payout,767.14,0.0,5401.35
+2024-06-01,G008,Velocity Clash,gift_card,2049.39,40.74,7031.37
+2024-06-01,G008,Velocity Clash,instant_debit_payout,1015.9,130.39,3722.62
+2024-06-01,G008,Velocity Clash,wallet_transfer,207.97,122.2,527.53
+2024-06-01,G010,Whispering Hollow,bank_payout,924.61,0.0,3857.72
+2024-06-01,G010,Whispering Hollow,gift_card,1521.93,216.45,8215.76
+2024-06-01,G010,Whispering Hollow,instant_debit_payout,0.0,377.9,-937.66
+2024-06-01,G010,Whispering Hollow,wallet_transfer,56.18,0.0,828.02
