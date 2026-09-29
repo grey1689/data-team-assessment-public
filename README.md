@@ -1,5 +1,7 @@
 # Analytics Engineering Take-Home
 
+> **Reviewers:** this file is the original prompt. The solution map (where each deliverable lives, schemas, dbt/Python load path) is **[README_SOLUTION.md](README_SOLUTION.md)**.
+
 ### Context:
 
 You're joining the team supporting a player rewards program. Players earn value through gameplay, and can redeem it for real-world value through a few different channels. In this repo, there are 5 CSVs representing the underlying system:
