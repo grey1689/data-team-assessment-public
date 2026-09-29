@@ -27,6 +27,7 @@ The queryable Product table in Postgres is **`canonical.monthly_rewards_by_game_
 - **Transform tool:** dbt (`dbt-postgres`), project name `zbd`, profile in repo-root [`profiles.yml`](profiles.yml).
 - **No Airflow/Dagster/etc.** Load order is documented commands, not a scheduler.
 - **Python:** [`scripts/dbt_macro_runner.py`](scripts/dbt_macro_runner.py) (run any dbt macro) and [`scripts/load_source_data.py`](scripts/load_source_data.py) (one CSV → one table per run). Connection helper: [`scripts/db.py`](scripts/db.py).
+- **Database role:** loaders and dbt use `zbd_app` (not a superuser). Copy [`.env.example`](.env.example) to `.env`, then run [`scripts/provision_app_role.py`](scripts/provision_app_role.py) once as a superuser. That script grants `proxy` / `clean` / `canonical` and writes `POSTGRES_USER=zbd_app` while keeping `POSTGRES_ADMIN_*` for later role changes. It does not print passwords.
 
 ---
 

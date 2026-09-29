@@ -31,7 +31,8 @@ def schema_name() -> str:
 def get_conn():
     """
     Open a new psycopg2 connection to `zbd_development` (or whatever
-    `POSTGRES_DB` is set to).
+    `POSTGRES_DB` is set to). Uses POSTGRES_USER from `.env` (the
+    application role `zbd_app` after provisioning).
 
     The caller owns commit/rollback/close. Required env vars:
     POSTGRES_HOST, POSTGRES_PORT, POSTGRES_USER, POSTGRES_PASSWORD, POSTGRES_DB.
@@ -41,5 +42,23 @@ def get_conn():
         port=os.environ["POSTGRES_PORT"],
         user=os.environ["POSTGRES_USER"],
         password=os.environ["POSTGRES_PASSWORD"],
+        dbname=os.environ["POSTGRES_DB"],
+    )
+
+
+def get_admin_conn():
+    """
+    Superuser (or owner) connection for role provisioning only.
+
+    Uses POSTGRES_ADMIN_USER / POSTGRES_ADMIN_PASSWORD when set, otherwise
+    the same credentials as get_conn().
+    """
+    return psycopg2.connect(
+        host=os.environ["POSTGRES_HOST"],
+        port=os.environ["POSTGRES_PORT"],
+        user=os.environ.get("POSTGRES_ADMIN_USER", os.environ["POSTGRES_USER"]),
+        password=os.environ.get(
+            "POSTGRES_ADMIN_PASSWORD", os.environ["POSTGRES_PASSWORD"]
+        ),
         dbname=os.environ["POSTGRES_DB"],
     )
